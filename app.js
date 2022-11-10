@@ -33,6 +33,22 @@ btn.addEventListener("click", function() {
 
 });
 
-document.getElementById("close-box").onclick = function() {
+document.getElementById("close-box0").onclick = function() {
       box.style.display = 'none';
-  }
+}
+
+
+
+
+var btn2 = document.getElementById("btn3");
+var box2 = document.getElementById("box2");
+
+btn2.addEventListener("click", function() {
+      box2.style.display = 'block';
+
+});
+
+var close2 = document.getElementById("close-box2");
+close2.addEventListener("click", function() {
+      box2.style.display = 'none';
+});

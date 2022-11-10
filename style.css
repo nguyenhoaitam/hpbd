@@ -183,6 +183,23 @@ footer {
       /* position: relative; */
 }
 
+.box2 {
+      background-color: #e47ea0;
+      color: #000;
+      position: fixed;
+      top: 20%;
+      bottom: 20%;
+      left: 15%;
+      right: 15%;
+      width: 70%;
+      height: 60%;
+      z-index: 99999999;
+      display: none;
+      border-radius: 10px;
+      box-shadow: #e47ea0 3px 4px 4px;
+      /* position: relative; */
+}
+
 .box > div {
       position: relative;
 }
@@ -199,7 +216,16 @@ footer {
       margin: 4px
 }
 
-#close-box {
+#close-box0 {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      z-index: 99;
+  }
+
+  #close-box2 {
       position: absolute;
       right: 0;
       top: 0;
@@ -209,4 +235,25 @@ footer {
 
   .love {
       width: 25%;
+  }
+
+      /* .pon {
+            display: flex;
+            
+      } */
+
+  .pon1 {
+      position: fixed;
+      left: 5%;
+      top: 10%;
+  }
+
+  .pon2 {
+      position: fixed;
+      right: 5%;
+      top: 10%;
+  }
+
+  .pon1, .pon2 {
+      width: 40%;
   }
